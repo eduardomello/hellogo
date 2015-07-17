@@ -1,5 +1,5 @@
 FROM golang:latest
-COPY hello.go
+COPY hello.go .
 RUN go install hello.go
 
 CMD ["hello"]
